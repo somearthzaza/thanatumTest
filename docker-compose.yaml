@@ -7,12 +7,12 @@ services:
     ports:
       - "5173:5173"
     environment:
-      - VITE_API_URL=http://localhost:8000
+      - VITE_API_URL=http://192.168.0.3:8000
     depends_on:
       - api
     networks:
       thanatum-network:
-        ipv4_address: 192.168.70.4
+        ipv4_address: 192.168.0.4
   api:
     build:
       context: thatumBackend
@@ -20,7 +20,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - DB_HOST= 192.168.70.3
+      - DB_HOST=192.168.0.2
       - DB_PORT=3306
       - DB_USER=root
       - DB_PASS=root
@@ -32,7 +32,7 @@ services:
         condition: service_healthy
     networks:
       thanatum-network:
-        ipv4_address: 192.168.70.2
+        ipv4_address: 192.168.0.3
   db:
     build:
       context: .
@@ -53,11 +53,11 @@ services:
       retries: 5
     networks:
       thanatum-network:
-        ipv4_address: 192.168.70.3
+        ipv4_address: 192.168.0.2
 
 networks:
   thanatum-network:
     driver: bridge
     ipam:
       config:
-        - subnet: 192.168.70.1/24
+        - subnet: 192.168.0.1/24
