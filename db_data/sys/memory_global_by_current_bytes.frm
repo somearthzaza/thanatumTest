@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select 1 AS `event_name`,1 AS `current_count`,1 AS `current_alloc`,1 AS `current_avg_alloc`,1 AS `high_count`,1 AS `high_alloc`,1 AS `high_avg_alloc`
+md5=ebf3db5fb96c54555a0884cce1a816f1
+updatable=0
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2024-04-08 15:57:05
+create-version=1
+source=SELECT \n 1 AS `event_name`,\n 1 AS `current_count`,\n 1 AS `current_alloc`,\n 1 AS `current_avg_alloc`,\n 1 AS `high_count`,\n 1 AS `high_alloc`,\n 1 AS `high_avg_alloc`
+client_cs_name=utf8mb4
+connection_cl_name=utf8_general_ci
+view_body_utf8=select 1 AS `event_name`,1 AS `current_count`,1 AS `current_alloc`,1 AS `current_avg_alloc`,1 AS `high_count`,1 AS `high_alloc`,1 AS `high_avg_alloc`

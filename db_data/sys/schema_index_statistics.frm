@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select 1 AS `table_schema`,1 AS `table_name`,1 AS `index_name`,1 AS `rows_selected`,1 AS `select_latency`,1 AS `rows_inserted`,1 AS `insert_latency`,1 AS `rows_updated`,1 AS `update_latency`,1 AS `rows_deleted`,1 AS `delete_latency`
+md5=e3d1eb813df5c9191361a83ec30eb320
+updatable=0
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2024-04-08 15:57:05
+create-version=1
+source=SELECT \n 1 AS `table_schema`,\n 1 AS `table_name`,\n 1 AS `index_name`,\n 1 AS `rows_selected`,\n 1 AS `select_latency`,\n 1 AS `rows_inserted`,\n 1 AS `insert_latency`,\n 1 AS `rows_updated`,\n 1 AS `update_latency`,\n 1 AS `rows_deleted`,\n 1 AS `delete_latency`
+client_cs_name=utf8mb4
+connection_cl_name=utf8_general_ci
+view_body_utf8=select 1 AS `table_schema`,1 AS `table_name`,1 AS `index_name`,1 AS `rows_selected`,1 AS `select_latency`,1 AS `rows_inserted`,1 AS `insert_latency`,1 AS `rows_updated`,1 AS `update_latency`,1 AS `rows_deleted`,1 AS `delete_latency`

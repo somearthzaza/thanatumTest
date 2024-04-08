@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select 1 AS `thd_id`,1 AS `conn_id`,1 AS `user`,1 AS `db`,1 AS `command`,1 AS `state`,1 AS `time`,1 AS `current_statement`,1 AS `execution_engine`,1 AS `statement_latency`,1 AS `progress`,1 AS `lock_latency`,1 AS `cpu_latency`,1 AS `rows_examined`,1 AS `rows_sent`,1 AS `rows_affected`,1 AS `tmp_tables`,1 AS `tmp_disk_tables`,1 AS `full_scan`,1 AS `last_statement`,1 AS `last_statement_latency`,1 AS `current_memory`,1 AS `last_wait`,1 AS `last_wait_latency`,1 AS `source`,1 AS `trx_latency`,1 AS `trx_state`,1 AS `trx_autocommit`,1 AS `pid`,1 AS `program_name`
+md5=ee4db30c26e2fb0c9d2224cc7ad11d05
+updatable=0
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2024-04-08 15:57:05
+create-version=1
+source=SELECT \n 1 AS `thd_id`,\n 1 AS `conn_id`,\n 1 AS `user`,\n 1 AS `db`,\n 1 AS `command`,\n 1 AS `state`,\n 1 AS `time`,\n 1 AS `current_statement`,\n 1 AS `execution_engine`,\n 1 AS `statement_latency`,\n 1 AS `progress`,\n 1 AS `lock_latency`,\n 1 AS `cpu_latency`,\n 1 AS `rows_examined`,\n 1 AS `rows_sent`,\n 1 AS `rows_affected`,\n 1 AS `tmp_tables`,\n 1 AS `tmp_disk_tables`,\n 1 AS `full_scan`,\n 1 AS `last_statement`,\n 1 AS `last_statement_latency`,\n 1 AS `current_memory`,\n 1 AS `last_wait`,\n 1 AS `last_wait_latency`,\n 1 AS `source`,\n 1 AS `trx_latency`,\n 1 AS `trx_state`,\n 1 AS `trx_autocommit`,\n 1 AS `pid`,\n 1 AS `program_name`
+client_cs_name=utf8mb4
+connection_cl_name=utf8_general_ci
+view_body_utf8=select 1 AS `thd_id`,1 AS `conn_id`,1 AS `user`,1 AS `db`,1 AS `command`,1 AS `state`,1 AS `time`,1 AS `current_statement`,1 AS `execution_engine`,1 AS `statement_latency`,1 AS `progress`,1 AS `lock_latency`,1 AS `cpu_latency`,1 AS `rows_examined`,1 AS `rows_sent`,1 AS `rows_affected`,1 AS `tmp_tables`,1 AS `tmp_disk_tables`,1 AS `full_scan`,1 AS `last_statement`,1 AS `last_statement_latency`,1 AS `current_memory`,1 AS `last_wait`,1 AS `last_wait_latency`,1 AS `source`,1 AS `trx_latency`,1 AS `trx_state`,1 AS `trx_autocommit`,1 AS `pid`,1 AS `program_name`

@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select 1 AS `thread_id`,1 AS `user`,1 AS `current_count_used`,1 AS `current_allocated`,1 AS `current_avg_alloc`,1 AS `current_max_alloc`,1 AS `total_allocated`
+md5=29145009968b7a6ad6cefed431cdd9c7
+updatable=0
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2024-04-08 15:57:05
+create-version=1
+source=SELECT \n 1 AS `thread_id`,\n 1 AS `user`,\n 1 AS `current_count_used`,\n 1 AS `current_allocated`,\n 1 AS `current_avg_alloc`,\n 1 AS `current_max_alloc`,\n 1 AS `total_allocated`
+client_cs_name=utf8mb4
+connection_cl_name=utf8_general_ci
+view_body_utf8=select 1 AS `thread_id`,1 AS `user`,1 AS `current_count_used`,1 AS `current_allocated`,1 AS `current_avg_alloc`,1 AS `current_max_alloc`,1 AS `total_allocated`

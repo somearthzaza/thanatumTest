@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select 1 AS `query`,1 AS `db`,1 AS `exec_count`,1 AS `total_latency`,1 AS `memory_tmp_tables`,1 AS `disk_tmp_tables`,1 AS `avg_tmp_tables_per_query`,1 AS `tmp_tables_to_disk_pct`,1 AS `first_seen`,1 AS `last_seen`,1 AS `digest`
+md5=f6360b28401a958eaa082e8b13292b51
+updatable=0
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2024-04-08 15:57:05
+create-version=1
+source=SELECT \n 1 AS `query`,\n 1 AS `db`,\n 1 AS `exec_count`,\n 1 AS `total_latency`,\n 1 AS `memory_tmp_tables`,\n 1 AS `disk_tmp_tables`,\n 1 AS `avg_tmp_tables_per_query`,\n 1 AS `tmp_tables_to_disk_pct`,\n 1 AS `first_seen`,\n 1 AS `last_seen`,\n 1 AS `digest`
+client_cs_name=utf8mb4
+connection_cl_name=utf8_general_ci
+view_body_utf8=select 1 AS `query`,1 AS `db`,1 AS `exec_count`,1 AS `total_latency`,1 AS `memory_tmp_tables`,1 AS `disk_tmp_tables`,1 AS `avg_tmp_tables_per_query`,1 AS `tmp_tables_to_disk_pct`,1 AS `first_seen`,1 AS `last_seen`,1 AS `digest`

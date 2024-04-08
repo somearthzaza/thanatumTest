@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select 1 AS `Variable_name`,1 AS `Variable_value`,1 AS `Type`,1 AS `Enabled`
+md5=c37322db50be06d99b7a097e83128c87
+updatable=0
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2024-04-08 15:57:05
+create-version=1
+source=SELECT \n 1 AS `Variable_name`,\n 1 AS `Variable_value`,\n 1 AS `Type`,\n 1 AS `Enabled`
+client_cs_name=utf8mb4
+connection_cl_name=utf8_general_ci
+view_body_utf8=select 1 AS `Variable_name`,1 AS `Variable_value`,1 AS `Type`,1 AS `Enabled`

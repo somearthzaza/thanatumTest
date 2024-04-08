@@ -1,0 +1,53 @@
+.backcontainer {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  opacity: 0.5;
+  background-color: #ccc;
+}
+
+.sumContainer {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80vw;
+  margin: auto;
+  margin-top: 100px;
+  z-index: 2;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.cancelButton {
+  float: right;
+  align-items: end;
+  margin-right: 20px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 10vw;
+  transition: background-color 0.3s;
+  margin-right: 20px;
+  padding: 10px;
+}
+.buttonedit {
+  float: right;
+  align-items: end;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 10vw;
+  transition: background-color 0.3s;
+  margin-right: 20px;
+}
+
+.cancelButton:hover {
+  background-color: #ff6666;
+}

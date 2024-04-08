@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select 1 AS `table_schema`,1 AS `table_name`,1 AS `column_name`,1 AS `data_type`,1 AS `column_type`,1 AS `is_signed`,1 AS `is_unsigned`,1 AS `max_value`,1 AS `auto_increment`,1 AS `auto_increment_ratio`
+md5=606499dd090cb2e96eb2aa5db40a11c1
+updatable=0
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2024-04-08 15:57:05
+create-version=1
+source=SELECT \n 1 AS `table_schema`,\n 1 AS `table_name`,\n 1 AS `column_name`,\n 1 AS `data_type`,\n 1 AS `column_type`,\n 1 AS `is_signed`,\n 1 AS `is_unsigned`,\n 1 AS `max_value`,\n 1 AS `auto_increment`,\n 1 AS `auto_increment_ratio`
+client_cs_name=utf8mb4
+connection_cl_name=utf8_general_ci
+view_body_utf8=select 1 AS `table_schema`,1 AS `table_name`,1 AS `column_name`,1 AS `data_type`,1 AS `column_type`,1 AS `is_signed`,1 AS `is_unsigned`,1 AS `max_value`,1 AS `auto_increment`,1 AS `auto_increment_ratio`

@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select 1 AS `file`,1 AS `total`,1 AS `total_latency`,1 AS `count_read`,1 AS `read_latency`,1 AS `count_write`,1 AS `write_latency`,1 AS `count_misc`,1 AS `misc_latency`
+md5=ef39dbf214a5af59b801245cf96ee8f0
+updatable=0
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2024-04-08 15:57:05
+create-version=1
+source=SELECT \n 1 AS `file`,\n 1 AS `total`,\n 1 AS `total_latency`,\n 1 AS `count_read`,\n 1 AS `read_latency`,\n 1 AS `count_write`,\n 1 AS `write_latency`,\n 1 AS `count_misc`,\n 1 AS `misc_latency`
+client_cs_name=utf8mb4
+connection_cl_name=utf8_general_ci
+view_body_utf8=select 1 AS `file`,1 AS `total`,1 AS `total_latency`,1 AS `count_read`,1 AS `read_latency`,1 AS `count_write`,1 AS `write_latency`,1 AS `count_misc`,1 AS `misc_latency`

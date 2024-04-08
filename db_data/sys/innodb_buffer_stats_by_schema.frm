@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select 1 AS `object_schema`,1 AS `allocated`,1 AS `data`,1 AS `pages`,1 AS `pages_hashed`,1 AS `pages_old`,1 AS `rows_cached`
+md5=12e2e2e980dee1d9530ca44aa4f1e618
+updatable=0
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2024-04-08 15:57:05
+create-version=1
+source=SELECT \n 1 AS `object_schema`,\n 1 AS `allocated`,\n 1 AS `data`,\n 1 AS `pages`,\n 1 AS `pages_hashed`,\n 1 AS `pages_old`,\n 1 AS `rows_cached`
+client_cs_name=utf8mb4
+connection_cl_name=utf8_general_ci
+view_body_utf8=select 1 AS `object_schema`,1 AS `allocated`,1 AS `data`,1 AS `pages`,1 AS `pages_hashed`,1 AS `pages_old`,1 AS `rows_cached`

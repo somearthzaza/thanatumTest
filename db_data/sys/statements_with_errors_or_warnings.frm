@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select 1 AS `query`,1 AS `db`,1 AS `exec_count`,1 AS `errors`,1 AS `error_pct`,1 AS `warnings`,1 AS `warning_pct`,1 AS `first_seen`,1 AS `last_seen`,1 AS `digest`
+md5=a2c519f6014e6dfa98fc919715bff3de
+updatable=0
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2024-04-08 15:57:05
+create-version=1
+source=SELECT \n 1 AS `query`,\n 1 AS `db`,\n 1 AS `exec_count`,\n 1 AS `errors`,\n 1 AS `error_pct`,\n 1 AS `warnings`,\n 1 AS `warning_pct`,\n 1 AS `first_seen`,\n 1 AS `last_seen`,\n 1 AS `digest`
+client_cs_name=utf8mb4
+connection_cl_name=utf8_general_ci
+view_body_utf8=select 1 AS `query`,1 AS `db`,1 AS `exec_count`,1 AS `errors`,1 AS `error_pct`,1 AS `warnings`,1 AS `warning_pct`,1 AS `first_seen`,1 AS `last_seen`,1 AS `digest`
